@@ -1,36 +1,72 @@
-.friendMessage {
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
 
+.friendMessage {
+    margin-top: 55px;
 }
 
 .friendImageAndText {
-
+    display: flex;
+    flex-direction: row;
+    align-items: end;
 }
 
 .friendImageAndText img {
     width: 48px;
     height: 48px;
+    margin-left: 70px;
+    margin-right: 12px;
 }
 
 .friendText {
-
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    position: relative;
+    background: #F5F7FB;
+    border-radius: 1ch;
+    padding: 7px 13px;
 }
 
 .friendText:after {
-
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    left: -12px; bottom: 0; /* Положение треугольника */
+    border: 12px solid transparent; /* Прозрачные границы */
+    border-bottom: 10px solid #F5F7FB; /* Добавляем треугольник */
 }
 
 .friendName {
-
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
 }
 
 .friendMessageText {
-
+    font-family: 'Montserrat',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
 }
 
 .friendTime {
-    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
-    line-height: 12px
+    line-height: 12px;
+    margin-top: 5px;
+    margin-left: 81px;
 }
