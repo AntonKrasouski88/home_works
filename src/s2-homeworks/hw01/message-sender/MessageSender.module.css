@@ -27,10 +27,11 @@
     margin-left: 44px;
     width: 120px;
     height: 40px;
-    left: 1090px;
-    top: 408px;
-    background: 1px #0066CC;
+    background: linear-gradient(to left, #FF0080, #0077ff, #0066cc );
+    background-size: 700%;
     border-radius: 20px;
+    transition: .5s;
+    text-decoration: none;
     border-style: solid;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -41,8 +42,9 @@
 }
 
 .button:hover {
-
+    background-position: right;
+    color: #fff;
 }
 .button:active {
-
+    background-color: #26F0F1;
 }
