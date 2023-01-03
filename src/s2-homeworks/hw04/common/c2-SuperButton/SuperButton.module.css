@@ -1,36 +1,106 @@
 .button {
+    width: 132px;
+    height: 30px;
 }
 
 .disabled {
+    width: 132px;
+    height: 30px;
+    background-color: #004D99;
+    opacity: 0.5;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
 }
 
 .secondary {
+    width: 176px;
+    height: 30px;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    color: #0066CC;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .default {
+    width: 132px;
+    height: 30px;
+    background: #0066CC;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .red {
+    width: 129px;
+    height: 30px;
+    background: #CC1439;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .default:hover {
+    width: 167px;
+    height: 30px;
+    background: #0080FF;
 }
 
 .red:hover {
+    width: 167px;
+    height: 30px;
+    background: #FF1A47;
 }
 
 .secondary:hover {
+    background: #E5F0FA;
+    transition: 0.5s;
 }
 
 
 .default:active {
+    width: 132px;
+    height: 30px;
 }
 
 .secondary:active {
+    background: #79aade;
 }
 
 .red:active {
+    width: 132px;
+    height: 30px;
 }
 
 .button:disabled {
+    width: 132px;
+    height: 30px;
+    background-color: #004D99;
+    opacity: 0.5;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    color: grey;
 }
