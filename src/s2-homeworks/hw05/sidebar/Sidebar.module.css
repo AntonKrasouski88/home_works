@@ -32,7 +32,7 @@
 }
 
 .nav a {
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	font-style: normal;
 	font-weight: 600;
