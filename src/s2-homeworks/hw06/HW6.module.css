@@ -1,5 +1,18 @@
 .buttonsContainer {
+    margin-top: 16px;
+}
+
+.buttonsContainer button {
+    width: 116px;
+    height: 30px;
+}
+
+.buttonsContainer button:first-child {
+    margin-right: 24px;
 }
 
 .editableSpanContainer {
+    margin-top: 34px;
+    width: 276px;
+    height: 36px;
 }
