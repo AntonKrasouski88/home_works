@@ -1,14 +1,49 @@
 .buttonsContainer {
+    margin-top: 55px;
+}
+
+
+.additionallyClassButton{
+    width: 84px;
+    height: 30px;
+}
+
+.additionallyClassButton:hover {
+    width: 84px;
+    height: 30px;
+}
+
+.additionallyClassButton:disabled{
+    width: 84px;
+    height: 30px;
+}
+
+.rightButton{
+    margin-left: 21px;
 }
 
 .clock {
+    margin-top: 26px;
 }
 
 .watch {
+    font-family: 'Montserrat', SansSerif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .watch strong {
+
 }
 
 .more {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
+
